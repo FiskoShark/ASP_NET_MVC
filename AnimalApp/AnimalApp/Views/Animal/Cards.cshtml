@@ -1,0 +1,44 @@
+﻿@model List<Animal>
+
+<h1>Animals</h1>
+
+<div class="animals-container">
+    @foreach (var animal in Model)
+    {
+        <div class="animal-card">
+            <h2>@animal.Name</h2>
+            <p>Species: @animal.Species</p>
+            <p>Age: @animal.Age</p>
+            <p>Color: @animal.Color</p>
+
+            <a href="/Animal/Details/@animal.Id">Details</a>
+        </div>
+    }
+</div>
+
+
+<style>
+    .animals-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .animal-card {
+        width: 220px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+
+    .animal-card h2 {
+        margin-top: 0;
+    }
+
+    .animal-card a {
+        display: inline-block;
+        margin-top: 10px;
+    }
+</style>
+
+

@@ -1,0 +1,24 @@
+﻿@model List<Animal>
+
+
+<h1>Animals</h1>
+
+<a href="/Animal/Cards">Перегляд картками</a>
+<hr />
+
+
+
+@foreach (var animal in Model)
+{
+    <div>
+        <p>Name: @animal.Name</p>
+        <p>Species: @animal.Species</p>
+        <p>Age: @animal.Age</p>
+        <p>Color: @animal.Color</p>
+
+        <a href="/Animal/Details/@animal.Id">Details</a>
+    </div>
+    <hr />
+}
+
+

@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|c:\\users\\user\\source\\repos\\repos2\\repos3_newyear_lastyear\\animalapp\\animalapp\\views\\animal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|solutionrelative:animalapp\\views\\animal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|c:\\users\\user\\source\\repos\\repos2\\repos3_newyear_lastyear\\animalapp\\animalapp\\views\\animal\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|solutionrelative:animalapp\\views\\animal\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|c:\\users\\user\\source\\repos\\repos2\\repos3_newyear_lastyear\\animalapp\\animalapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|solutionrelative:animalapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|c:\\users\\user\\source\\repos\\repos2\\repos3_newyear_lastyear\\animalapp\\animalapp\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|solutionrelative:animalapp\\controllers\\animalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|c:\\users\\user\\source\\repos\\repos2\\repos3_newyear_lastyear\\animalapp\\animalapp\\views\\animal\\cards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|solutionrelative:animalapp\\views\\animal\\cards.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|c:\\users\\user\\source\\repos\\repos2\\repos3_newyear_lastyear\\animalapp\\animalapp\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|solutionrelative:animalapp\\models\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|c:\\users\\user\\source\\repos\\repos2\\repos3_newyear_lastyear\\animalapp\\animalapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|solutionrelative:animalapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|c:\\users\\user\\source\\repos\\repos2\\repos3_newyear_lastyear\\animalapp\\animalapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7370DB38-1F31-6475-559F-077002072703}|AnimalApp\\AnimalApp.csproj|solutionrelative:animalapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Views\\Animal\\Details.cshtml",
+              "RelativeDocumentMoniker": "AnimalApp\\Views\\Animal\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Views\\Animal\\Details.cshtml",
+              "RelativeToolTip": "AnimalApp\\Views\\Animal\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-20T13:21:04.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AnimalApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AnimalApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-21T18:31:38.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Views\\Animal\\Index.cshtml",
+              "RelativeDocumentMoniker": "AnimalApp\\Views\\Animal\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Views\\Animal\\Index.cshtml",
+              "RelativeToolTip": "AnimalApp\\Views\\Animal\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-20T11:19:40.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnimalController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Controllers\\AnimalController.cs",
+              "RelativeDocumentMoniker": "AnimalApp\\Controllers\\AnimalController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Controllers\\AnimalController.cs",
+              "RelativeToolTip": "AnimalApp\\Controllers\\AnimalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T11:17:46.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cards.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Views\\Animal\\Cards.cshtml",
+              "RelativeDocumentMoniker": "AnimalApp\\Views\\Animal\\Cards.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Views\\Animal\\Cards.cshtml",
+              "RelativeToolTip": "AnimalApp\\Views\\Animal\\Cards.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-21T19:19:24.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Models\\Animal.cs",
+              "RelativeDocumentMoniker": "AnimalApp\\Models\\Animal.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Models\\Animal.cs",
+              "RelativeToolTip": "AnimalApp\\Models\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T11:15:49.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AnimalApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AnimalApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T11:07:24.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "AnimalApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\repos2\\repos3_NewYear_LastYear\\AnimalApp\\AnimalApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "AnimalApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T11:07:16.152Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
