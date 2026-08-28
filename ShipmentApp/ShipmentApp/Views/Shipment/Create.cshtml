@@ -1,0 +1,102 @@
+﻿@model ShipmentApp.Models.ShipmentViewModel
+
+<style>
+    body {
+        background-color: #2b2b2b;
+        color: #f1f1f1;
+    }
+
+    .shipment-form {
+        max-width: 500px;
+        margin: 40px auto;
+        background-color: #3a3a3a;
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    .shipment-form h1 {
+        color: #61dafb;
+        margin-bottom: 25px;
+    }
+
+    .field {
+        margin-bottom: 15px;
+    }
+
+    label {
+        display: block;
+        color: #61dafb;
+        margin-bottom: 5px;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: #222;
+        color: white;
+        border: 1px solid #555;
+        border-radius: 5px;
+    }
+
+    button {
+        padding: 10px 25px;
+        background-color: #61dafb;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #ffcc66;
+    }
+
+    .field-validation-error {
+        color: #ff6b6b;
+    }
+</style>
+
+
+<h1>Shipment</h1>
+
+<form asp-controller="Shipment"
+      asp-action="Create"
+      method="post">
+
+    <div>
+        <label asp-for="RecipientName"></label>
+        <input asp-for="RecipientName" />
+        <span asp-validation-for="RecipientName"></span>
+    </div>
+
+    <div>
+        <label asp-for="Address"></label>
+        <input asp-for="Address" />
+        <span asp-validation-for="Address"></span>
+    </div>
+
+    <div>
+        <label asp-for="City"></label>
+        <input asp-for="City" />
+        <span asp-validation-for="City"></span>
+    </div>
+
+    <div>
+        <label asp-for="PostalCode"></label>
+        <input asp-for="PostalCode" />
+        <span asp-validation-for="PostalCode"></span>
+    </div>
+
+    <div>
+        <label asp-for="ProductName"></label>
+        <input asp-for="ProductName" />
+        <span asp-validation-for="ProductName"></span>
+    </div>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+
+
