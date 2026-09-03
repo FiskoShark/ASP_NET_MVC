@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Пошук";
+}
+
+<div style="max-width: 700px; margin: 70px auto; padding: 35px; background-color: #242424; border-radius: 16px; box-shadow: 0 8px 25px rgba(0,0,0,0.35);">
+
+    <h1 style="color: #9aff57; margin-bottom: 10px;">Пошук</h1>
+
+    <p style="color: #aaa; margin-bottom: 25px;">
+        Введіть запит для пошуку.
+    </p>
+
+    <form action="/Search/Index" method="get">
+        <div style="display: flex; gap: 10px;">
+            <input type="text"
+                   name="query"
+                   value="@ViewBag.Query"
+                   placeholder="Введіть пошуковий запит..."
+                   style="flex: 1; background-color: #181818; color: #e0e0e0; border: 1px solid #555; padding: 12px 15px; border-radius: 8px; outline: none;">
+
+            <button type="submit"
+                    style="background-color: #9aff57; color: #181818; border: none; padding: 12px 22px; border-radius: 8px; font-weight: 600; cursor: pointer;">
+                Шукати
+            </button>
+        </div>
+    </form>
+
+    @if (!string.IsNullOrWhiteSpace(ViewBag.Query))
+    {
+        <div style="margin-top: 25px; padding: 15px; background-color: #181818; border-left: 4px solid #9aff57; border-radius: 6px; color: #e0e0e0;">
+            Ваш запит: <strong style="color: #9aff57;">@ViewBag.Query</strong>
+        </div>
+    }
+
+</div>
