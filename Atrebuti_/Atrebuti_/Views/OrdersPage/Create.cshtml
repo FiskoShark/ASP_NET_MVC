@@ -1,0 +1,71 @@
+﻿@model Atrebuti_.Models.OrderModel
+
+<h2>Створення замовлення</h2>
+
+<form id="orderForm" class="order-form">
+
+    <div class="order-field">
+        <label asp-for="title">Назва:</label>
+        <input asp-for="title" />
+        <span asp-validation-for="title"></span>
+    </div>
+
+    <div class="order-field">
+        <label asp-for="description">Опис:</label>
+        <textarea asp-for="description"></textarea>
+        <span asp-validation-for="description"></span>
+    </div>
+
+    <div class="order-field">
+        <label asp-for="price">Ціна:</label>
+        <input asp-for="price" />
+        <span asp-validation-for="price"></span>
+    </div>
+
+    <div class="order-field">
+        <label asp-for="quantity">Кількість:</label>
+        <input asp-for="quantity" />
+        <span asp-validation-for="quantity"></span>
+    </div>
+
+    <button type="submit" class="order-button">Створити замовлення</button>
+
+</form>
+
+<script>
+    document.getElementById("orderForm").addEventListener("submit", async function (event) {
+
+        // не дає перезавантажити сторінку //
+        event.preventDefault();
+
+        // дані з форми //
+        const order = {
+            title: document.getElementById("title").value,
+            description: document.getElementById("description").value,
+            price: Number(document.getElementById("price").value),
+            quantity: Number(document.getElementById("quantity").value)
+        };
+
+        // відправляємо дані в API
+        const response = await fetch("/api/orders", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(order)
+        });
+
+        // якщо API успішно //
+        if (response.ok) {
+
+            const createdOrder = await response.json();
+
+            alert(
+                `Замовлення створено! ID: ${createdOrder.id}. Загальна ціна: ${createdOrder.totalPrice}`
+            );
+        }
+        else {
+            alert("Помилка! Перевірте введені дані.");
+        }
+    });
+</script>

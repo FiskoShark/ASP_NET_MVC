@@ -1,0 +1,35 @@
+﻿@model Atrebuti_.Models.UserModel2
+
+<h2>Створення користувача</h2>
+
+<form asp-action="Create" method="post">
+
+    <div>
+        <label asp-for="name">Ім'я:</label>
+        <input asp-for="name" />
+        <span asp-validation-for="name"></span>
+    </div>
+
+    <div>
+        <label asp-for="email">Email:</label>
+        <input asp-for="email" />
+        <span asp-validation-for="email"></span>
+    </div>
+
+    <div>
+        <label asp-for="age">Вік:</label>
+        <input asp-for="age" />
+        <span asp-validation-for="age"></span>
+    </div>
+
+    <div>
+        <label asp-for="phone">Телефон:</label>
+        <input asp-for="phone" />
+        <span asp-validation-for="phone"></span>
+    </div>
+
+    <button type="submit">Створити користувача</button>
+
+</form>
+
+
